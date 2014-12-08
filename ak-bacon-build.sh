@@ -17,7 +17,8 @@ DEFCONFIG="ak_bacon_defconfig"
 # Kernel Details
 BASE_AK_VER="AK"
 VER=".077.OPO.CM11"
-AK_VER="$BASE_AK_VER$VER"
+MOD=".FM"
+AK_VER="$BASE_AK_VER$VER$MOD"
 
 # Vars
 export LOCALVERSION=~`echo $AK_VER`
